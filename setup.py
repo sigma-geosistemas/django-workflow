@@ -2,8 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='sample',
-
+    name='django-workflow-fsm',
     version='1.0.0',
 
     description='Maquina de Estados, navega entre estados, executando tasks e habilitando ações a cada estado',
@@ -12,7 +11,7 @@ setup(
     author='SIGMA Consultoria',
     author_email='atendimento@consultoriasigma.com.br',
     maintainer_email='atendimento@consultoriasigma.com.br',
-    url='https://github.com/sigma-consultoria/sigma.geocoder/',
+    url='https://github.com/sigma-geosistemas/django-workflow/',
     install_requires=[
         "celery",
         "django",
