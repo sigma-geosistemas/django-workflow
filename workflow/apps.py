@@ -14,7 +14,7 @@ class WorkflowApp(AppConfig):
     verbose_name = 'workflow'
 
     def ready(self):
-        from workflow.receivers import *  # noqa
+        from workflow import receivers  # noqa
         from .models import (StateMachine,
                              State,
                              Transition,
